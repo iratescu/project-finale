@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Project Finale </title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="title"> dynamic title
+        </div>
+        <div class="preview">
+        </div>
+      </div>
+      <div class="right">
+        <textarea class="rightstyle textarea" name="textarea" rows="2" cols="3"
+                  placeholder="Type your text here"></textarea>
+        <br>
+        <label class="label rightstyle" for="font-family"> Font Family</label>
+        <select class="rightstyle font-options" name="font-family">
+          <option value="verdana">Verdana</option>
+          <option value="timesnewroman">Times New Roman</option>
+          <option value="comicsansms">Comic Sans MS</option>
+          <option value="arial">Arial</option>
+        </select>
+        <br>
+        <label class="label rightstyle" for="font-style">Font Style</label>
+        <select class="rightstyle font-weight" name="font-style">
+          <option value="normal">Normal</option>
+          <option value="bold">Bold</option>
+          <option value="italic">Italic</option>
+        </select>
+        <br>
+        <label class="label rightstyle" for="fontsize">Font size</label>
+        <input class=" fontsize rightstyle" type="number" id="fontsize" name="fontsize"
+       min="1" max="80" placeholder="pixels">
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
